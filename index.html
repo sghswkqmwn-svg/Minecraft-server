@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ENDERFORGESMP</title>
+  <meta name="description" content="Join ENDERFORGESMP Minecraft Server.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="brand" id="navName">ENDERFORGESMP</div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#status">Status</a>
+      <a href="#features">Features</a>
+      <a href="#join">Join</a>
+    </div>
+
+    <button class="copy-btn" id="navCopy">
+      Copy IP
+    </button>
+  </nav>
+
+  <section class="hero" id="home">
+
+    <img id="logo" class="logo" src="images-2.jpg" alt="Server Logo">
+
+    <p class="subtitle">WELCOME TO</p>
+
+    <h1 id="name">ENDERFORGESMP</h1>
+
+    <p class="description">
+      Your adventure. Your world. Your community.
+    </p>
+
+    <div class="server-box">
+      <span id="ip">Loading IP...</span>
+      <button id="copyIP">COPY IP</button>
+    </div>
+
+    <p class="join-info">
+      Java Edition & Bedrock Edition
+    </p>
+
+    <a class="discord-btn" id="discord" href="#">
+      Join Discord
+    </a>
+
+  </section>
+
+  <section class="section" id="status">
+
+    <h2>Server Status</h2>
+
+    <div class="status-card">
+
+      <div class="status-line">
+        <span>Server Status</span>
+        <span id="onlineBadge">Checking...</span>
+      </div>
+
+      <div class="stats">
+
+        <div class="stat">
+          <small>Players Online</small>
+          <h3 id="players">--</h3>
+        </div>
+
+        <div class="stat">
+          <small>Java Status</small>
+          <h3 id="javaStatus">--</h3>
+        </div>
+
+        <div class="stat">
+          <small>Bedrock</small>
+          <h3 id="bedrockStatus">--</h3>
+        </div>
+
+      </div>
+
+      <button id="refresh" class="refresh">
+        Refresh Status
+      </button>
+
+    </div>
+
+  </section>
+
+  <section class="section" id="features">
+
+    <h2>Why ENDERFORGESMP?</h2>
+
+    <div class="features">
+
+      <div class="feature">
+        <div class="emoji">🌍</div>
+        <h3>Survival World</h3>
+        <p>Explore, build and create your own adventure.</p>
+      </div>
+
+      <div class="feature">
+        <div class="emoji">⚔️</div>
+        <h3>Adventure</h3>
+        <p>Enjoy exciting gameplay with your friends.</p>
+      </div>
+
+      <div class="feature">
+        <div class="emoji">📱</div>
+        <h3>Crossplay</h3>
+        <p>Join from Java and Bedrock editions.</p>
+      </div>
+
+      <div class="feature">
+        <div class="emoji">🤝</div>
+        <h3>Community</h3>
+        <p>Meet players and join our Discord.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section join-section" id="join">
+
+    <h2>Ready to Join?</h2>
+
+    <p>
+      Join ENDERFORGESMP and start your adventure!
+    </p>
+
+    <div class="join-details">
+
+      <div>
+        <h3>Java Edition</h3>
+        <p id="javaIP">Loading...</p>
+      </div>
+
+      <div>
+        <h3>Bedrock Edition</h3>
+        <p id="bedrockIP">Loading...</p>
+        <p id="port">Loading...</p>
+      </div>
+
+    </div>
+
+    <button class="copy-btn big" id="joinCopy">
+      Copy Server IP
+    </button>
+
+    <a class="discord-btn" id="discord2" href="#">
+      Join Discord
+    </a>
+
+  </section>
+
+  <footer>
+    <h3 id="footerName">ENDERFORGESMP</h3>
+    <p>Made for Minecraft players.</p>
+    <p>© <span id="year"></span> ENDERFORGESMP</p>
+  </footer>
+
+  <div class="toast" id="toast">
+    IP Copied!
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
