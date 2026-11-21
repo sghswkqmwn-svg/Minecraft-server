@@ -1,0 +1,10 @@
+{
+  "serverName": "ENDERFORGESMP",
+  "serverIp": "enderforgesmps2.mcsh.gg",
+  "bedrockPort": 28736,
+  "bedrockPlayersCanJoin": true,
+  "discordLink": "https://discord.gg/DFpKAzyTg",
+  "logoPath": "images-2.jpg",
+  "defaultColour": "blue",
+  "_defaultColourHelp": "Choose red, blue, yellow, purple, white, pink, or orange."
+}
